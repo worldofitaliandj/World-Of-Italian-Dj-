@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>World Of Italian Dj — Digital Magazine</title>
+<meta name="description" content="World Of Italian Dj — magazine digitale dedicato alla scena DJ italiana. News, interviste, classifiche, eventi e nuove uscite.">
+<style>
+*{box-sizing:border-box}body{margin:0;background:#0b0b0d;color:#f5f5f5;font-family:Arial,Helvetica,sans-serif}
+a{color:inherit;text-decoration:none}.top{background:#15151a;border-bottom:1px solid #292930;padding:9px 5%;font-size:13px;color:#aaa}
+header{padding:22px 5%;display:flex;align-items:center;justify-content:space-between;gap:20px;position:sticky;top:0;background:#0b0b0df2;backdrop-filter:blur(10px);z-index:5;border-bottom:1px solid #222}
+.logo{font-size:25px;font-weight:900;letter-spacing:-1px}.logo span{color:#ff3b30}
+nav{display:flex;gap:22px;font-weight:700;font-size:14px}nav a:hover{color:#ff3b30}
+.menu{display:none;background:none;color:#fff;border:1px solid #333;padding:8px 11px;border-radius:7px}
+.hero{padding:55px 5% 35px;display:grid;grid-template-columns:1.5fr 1fr;gap:25px}
+.kicker{color:#ff3b30;font-weight:900;text-transform:uppercase;font-size:13px;letter-spacing:1.5px}
+h1{font-size:clamp(42px,7vw,82px);line-height:.9;margin:14px 0}.lead{font-size:20px;line-height:1.5;color:#bbb;max-width:720px}
+.btn{display:inline-block;background:#ff3b30;color:#fff;padding:13px 18px;border-radius:7px;font-weight:900;margin-top:12px}.btn:hover{opacity:.85}
+.heroCard{min-height:350px;border-radius:14px;padding:28px;display:flex;align-items:end;background:linear-gradient(135deg,#292933,#101014);border:1px solid #303039}
+.heroCard h2{font-size:34px;margin:8px 0}.heroCard p{color:#ccc}
+.wrap{padding:10px 5% 55px}.bar{display:flex;justify-content:space-between;align-items:end;border-bottom:2px solid #fff;margin:20px 0}.bar h2{font-size:30px;margin:0 0 10px}.bar span{color:#888;font-size:13px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{background:#141419;border:1px solid #292930;border-radius:12px;overflow:hidden}.pic{height:190px;background:linear-gradient(135deg,#3a3a45,#17171c);display:flex;align-items:center;justify-content:center;font-size:14px;color:#999}.cardbody{padding:18px}.tag{font-size:11px;color:#ff3b30;font-weight:900;text-transform:uppercase}.card h3{font-size:22px;line-height:1.1;margin:8px 0}.card p{color:#aaa;line-height:1.45;font-size:14px}.meta{font-size:12px;color:#666}
+.rank{display:grid;grid-template-columns:60px 1fr auto;gap:15px;align-items:center;padding:15px 0;border-bottom:1px solid #292930}.num{font-size:28px;font-weight:900}.rank small{color:#888}.rank strong{font-size:17px}
+.newsletter{margin-top:35px;padding:30px;border:1px solid #333;border-radius:14px;background:#111116}.newsletter h2{margin-top:0}.newsletter input{padding:13px;background:#0b0b0d;border:1px solid #444;color:#fff;border-radius:7px;width:65%;max-width:450px}.newsletter button{padding:13px 18px;background:#fff;border:0;border-radius:7px;font-weight:900;margin-left:5px}
+footer{border-top:1px solid #292930;padding:30px 5%;color:#777;font-size:13px;display:flex;justify-content:space-between;gap:20px}
+@media(max-width:800px){nav{display:none}.menu{display:block}.hero{grid-template-columns:1fr;padding-top:35px}.grid{grid-template-columns:1fr}.heroCard{min-height:280px}.newsletter input{width:100%;margin-bottom:8px}.newsletter button{margin:0;width:100%}footer{display:block}}
+</style>
+</head>
+<body>
+<div class="top">WORLD OF ITALIAN DJ · DIGITAL MAGAZINE · 2026</div>
+<header>
+  <div class="logo">WORLD OF <span>ITALIAN DJ</span></div>
+  <button class="menu" onclick="document.querySelector('nav').style.display=document.querySelector('nav').style.display==='flex'?'none':'flex'">MENU</button>
+  <nav>
+    <a href="#news">NEWS</a><a href="#interviste">INTERVISTE</a><a href="#charts">CHARTS</a><a href="#eventi">EVENTI</a><a href="#talent">TALENT</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div>
+    <div class="kicker">Il magazine della scena elettronica italiana</div>
+    <h1>TURN IT<br>UP.</h1>
+    <p class="lead">News, DJ, producer, club culture, nuove uscite, interviste e classifiche. Tutto in un magazine digitale gratuito dedicato ai talenti italiani.</p>
+    <a class="btn" href="#news">LEGGI LE NEWS →</a>
+  </div>
+  <div class="heroCard">
+    <div><div class="tag">Cover Story</div><h2>La nuova generazione dei DJ italiani</h2><p>Scopri artisti, suoni e storie che stanno cambiando la scena.</p></div>
+  </div>
+</section>
+
+<main class="wrap">
+<section id="news">
+<div class="bar"><h2>ULTIME NEWS</h2><span>AGGIORNATO OGNI SETTIMANA</span></div>
+<div class="grid">
+<article class="card"><div class="pic">FOTO / COVER</div><div class="cardbody"><div class="tag">News</div><h3>La scena italiana torna protagonista</h3><p>Nuovi talenti, release e appuntamenti da non perdere.</p><div class="meta">07 SETTEMBRE 2026</div></div></article>
+<article class="card" id="interviste"><div class="pic">INTERVISTA</div><div class="cardbody"><div class="tag">Intervista</div><h3>Dentro lo studio: creatività, tecnica e passione</h3><p>Una rubrica dedicata al lavoro dietro la consolle e in studio.</p><div class="meta">WORLD OF ITALIAN DJ</div></div></article>
+<article class="card" id="eventi"><div class="pic">EVENTI</div><div class="cardbody"><div class="tag">Eventi</div><h3>I party e festival da segnare in agenda</h3><p>Una selezione di appuntamenti della musica elettronica italiana.</p><div class="meta">CALENDARIO 2026</div></div></article>
+</div>
+</section>
+
+<section id="charts" style="margin-top:45px">
+<div class="bar"><h2>TOP 100 DJ ITALIANI 2026</h2><span>WORLD OF ITALIAN DJ</span></div>
+<div class="rank"><div class="num">01</div><div><strong>DJ / ARTIST #1</strong><br><small>La classifica sarà aggiornata con i risultati delle votazioni</small></div><b>—</b></div>
+<div class="rank"><div class="num">02</div><div><strong>DJ / ARTIST #2</strong><br><small>Posizione provvisoria</small></div><b>—</b></div>
+<div class="rank"><div class="num">03</div><div><strong>DJ / ARTIST #3</strong><br><small>Posizione provvisoria</small></div><b>—</b></div>
+<a class="btn" href="#vota">VOTA LA TOP 100 →</a>
+</section>
+
+<section id="talent" class="newsletter">
+<h2>SEI UN DJ O PRODUCER?</h2>
+<p style="color:#aaa">Invia la tua storia, una release o una proposta editoriale a World Of Italian Dj.</p>
+<a class="btn" href="mailto:worldofitaliandj@gmail.com">CONTATTACI →</a>
+</section>
+
+<section id="vota" class="newsletter">
+<h2>NEWSLETTER</h2>
+<p style="color:#aaa">Ricevi le nuove pubblicazioni del magazine.</p>
+<form onsubmit="event.preventDefault();alert('Grazie! Collega questo modulo a un servizio email gratuito per raccogliere gli iscritti.');">
+<input type="email" placeholder="La tua email" required><button>ISCRIVITI</button>
+</form>
+</section>
+</main>
+
+<footer><div>© 2026 World Of Italian Dj</div><div>Digital Magazine · Tutto gratuito</div></footer>
+</body>
+</html>

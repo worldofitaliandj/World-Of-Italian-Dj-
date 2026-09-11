@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Archivio Classifiche | World Of Italian Dj</title>
+
+<meta name="description" content="Archivio delle Top 100 DJ Italiani di World Of Italian Dj. Classifiche 2026, 2025 e 2024.">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background:
+    radial-gradient(circle at top, #202040 0%, #080812 45%, #030305 100%);
+  color: white;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 20px 60px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.logo {
+  font-size: 38px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.logo span {
+  color: #00e5ff;
+}
+
+.subtitle {
+  margin-top: 12px;
+  color: #cfcfe8;
+  font-size: 18px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.card {
+  background: rgba(20, 20, 35, 0.92);
+  border: 1px solid rgba(0, 229, 255, 0.35);
+  border-radius: 20px;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 0 25px rgba(0, 229, 255, 0.12);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 35px rgba(0, 229, 255, 0.35);
+}
+
+.year {
+  font-size: 48px;
+  font-weight: bold;
+  color: #00e5ff;
+  text-shadow: 0 0 15px rgba(0, 229, 255, 0.6);
+}
+
+.card h2 {
+  font-size: 22px;
+  margin: 15px 0;
+}
+
+.card p {
+  color: #c8c8d8;
+  min-height: 45px;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 13px 24px;
+  border-radius: 30px;
+  background: #00e5ff;
+  color: #050509;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background: white;
+  transform: scale(1.05);
+}
+
+footer {
+  text-align: center;
+  margin-top: 55px;
+  color: #9999aa;
+  font-size: 14px;
+}
+
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .logo {
+    font-size: 29px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+  <div class="logo">
+    WORLD OF <span>ITALIAN DJ</span>
+  </div>
+
+  <div class="subtitle">
+    🏆 Archivio Top 100 DJ Italiani
+  </div>
+</header>
+
+<section class="cards">
+
+  <!-- 2026 -->
+  <div class="card">
+    <div class="year">2026</div>
+    <h2>Top 100 DJ Italiani 2026</h2>
+    <p>Classifica 2026 di World Of Italian Dj.</p>
+    <a class="button" href="https://worldofitaliandj.github.io/World-Of-Italian-Dj-/">
+      VEDI CLASSIFICA
+    </a>
+  </div>
+
+  <!-- 2025 -->
+  <div class="card">
+    <div class="year">2025</div>
+    <h2>Top 100 DJ Italiani 2025</h2>
+    <p>Archivio della classifica ufficiale 2025.</p>
+    <a class="button" href="https://world-of-italian-dj.webnode.it/l/world-of-italian-dj-top-100-djs-italiani-classifica-2025/" target="_blank">
+      VEDI CLASSIFICA
+    </a>
+  </div>
+
+  <!-- 2024 -->
+  <div class="card">
+    <div class="year">2024</div>
+    <h2>Top 100 DJ Italiani 2024</h2>
+    <p>Archivio della classifica ufficiale 2024.</p>
+    <a class="button" href="https://world-of-italian-dj.webnode.it/l/copia-di-world-of-italian-dj-top-100-djs-italiani-2024-classifica/" target="_blank">
+      VEDI CLASSIFICA
+    </a>
+  </div>
+
+</section>
+
+<footer>
+  © World Of Italian Dj — Archivio classifiche
+</footer>
+
+</div>
+
+</body>
+</html>
